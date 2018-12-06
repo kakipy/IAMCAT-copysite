@@ -1,0 +1,241 @@
+/* 全体へ*/
+*{
+    font-family: 'YuGothic',sans-serif;
+    box-sizing: border-box;
+}
+body,ul,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+/* コンテナ*/
+.container{
+    /* レスポンシブ */
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* ハンバーガーメニュー */
+.smartNav{
+    display: none;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+}
+
+/* ヘッダー*/
+
+header{
+    background-color:white;
+    height: 75px;
+    width: 100%;
+    padding: 26px;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 1px 6px #000000;
+}
+header a{
+    float: left;
+    color: #333333;
+}
+header ul{
+    text-align: right;
+}
+header li{
+    display: inline-block;
+    margin-right: 49px;
+}
+/* メイン*/
+.main{
+    width: 100%;
+    height: 986px;
+    background-image: url(img/cat-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    padding: 421px 0;
+}
+.main > img{
+    height: 144px;
+    width: 292px;
+}
+.main-copy h1{
+    margin: 100px 0;
+    /* font-size: 40px; */
+    font-size: 2em;
+}
+.main-copy p{
+    margin-bottom: 100px;
+    /* font-size: 24px; */
+    font-size: 1.2em;
+}
+/* CAT1*/
+#cat1{
+    background-color: #FCF6F2;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#cat1 h1{
+    font-size: 2em;
+    margin-bottom: 100px;
+ }
+ .cat1-contents{
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 0;
+    margin-bottom: 100px;
+    overflow: hidden;
+ }
+ .cat1-image{
+    width: 450px;
+    margin-right: 79px;
+    float: left;
+
+ }
+ .cat1-text{
+    width: 450px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+ }
+ .middleContents > .cat1-image{
+    float: right;
+    margin-right: 0px;
+    margin-left: 80px;
+ }
+/* CAT2*/
+#cat2{
+    padding-top: 100px;
+    text-align: center;
+}
+#cat2 h1{
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+.cat2-contents1{
+    text-align: left;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.cat2-contents1 img{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.leftContents{
+    float: left;
+    width: 45%;
+}
+.rightContents{
+    float: right;
+    width: 45%;
+}
+.cat2-contents2{
+    background-image: url(img/cat6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+}
+.contents2-text{
+    width: 600px;
+    height: 600px;
+    float: right;
+    padding: 98px 75px 52px;
+    background-color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: left;
+}
+/* CAT3*/
+#cat3{
+    padding-top: 100px;
+    text-align: center;
+}
+#cat3 h1{
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+.newsarea{
+    padding-bottom: 100px;
+}
+table{
+    font-size: 16px;
+    line-height: 40px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border-top: #777777 1px solid;
+    border-bottom: #777777 1px solid;
+    padding-right: 14px;
+    padding-left: 14px;
+
+}
+.new{
+    width: 130px;
+    color: #AD2727;
+    margin-left: 40px;
+    text-align: left;
+}
+.new span{
+    border: #AD2727 solid 1px;
+    padding: 5px 20px;
+}
+.description{
+    text-align: left;
+}
+
+/* cat3コンテンツ*/
+.cat3-contents-wrapper{
+    background-color: #8E8E8E;
+    padding:100px 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+.cat3-contents{
+    text-align: left;
+    float: left;
+    padding-right: 55px;
+    width: 33%;
+}
+.cat3-contents h2,li{
+    font-size: 16px;
+    color: #ffffff;
+}
+.cat3-contents h2{
+    /* display: inline-block; */
+    margin-bottom: 30px;
+    border-bottom: #ffffff 1px solid;
+}
+/* フッター*/
+footer{
+    background-color: #6A6A6A;
+    padding: 18px 0;
+}
+footer img{
+    width: 49px;
+    float: left;
+}
+footer p{
+    text-align: right;
+    color: #ffffff;
+    font-size: 12px;
+}
