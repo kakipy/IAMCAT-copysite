@@ -1,0 +1,108 @@
+/* レスポンシブ*/
+/* ズレ修正 */
+@media(max-width:1090px){
+    .cat1-contents{
+        text-align: center;
+    }
+    .cat1-image{
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .cat1-text{
+        text-align: center;
+        margin: 20px auto;
+    }
+    .middleContents > .cat1-image{
+        float: none;
+        margin: 0;
+     }
+}
+
+/* タブレット */
+@media(max-width:880px){
+    .main{
+        height: 500px;
+        padding: 200px 0;
+    }
+    .main-copy h1{
+        font-size: 1.5em;
+        margin: 50px 0;
+    }
+    .main-copy p{
+        font-size: 1em;
+        margin-bottom: 50px;
+    }
+    #cat1{
+        padding:50px 0 ;
+    }
+    #cat1 h1,.cat1-contents,#cat2 h1,.cat2-contents1{
+        margin-bottom: 50px;
+    }
+    #cat2,#cat3{
+        padding-top: 50px;
+    }
+    #cat3 h1{
+        margin-top: 0;
+    }
+    .cat1-text{
+        font-size: 16px;
+    }
+    .cat2-contents2{
+        height: 600px;
+    }
+    .contents2-text{
+        width: 90%;
+        height: 90%;
+        float: none;
+        padding: 50px 30px ;
+        font-size: 16px;
+        margin: 50px auto 0;
+        text-align: center;
+    }
+    #cat3 h1{
+        margin-bottom: 50px;
+    }
+    .newsarea{
+        padding-bottom: 50px;
+    }
+    table{
+        font-size: 12px;
+    }
+    .cat3-contents-wrapper{
+        padding:50px 0;
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+    .cat3-contents h2,li{
+        font-size: 14px;
+        color: #ffffff; 
+    }
+}
+
+/* スマホ*/
+@media(max-width:480px){
+    header ul{
+        display: none;
+    }
+    .cat1-text{
+        font-size: 14px;
+        width: 100%;
+    }
+    .cat1-image{
+        width: 100%;
+    }
+    .cat3-contents{
+        float: none;
+        text-align: center;
+        padding: 0 0 30px;
+        width: 100%;
+    }
+    .smartNav{
+        display: block;
+
+    }
+    
+
+}
